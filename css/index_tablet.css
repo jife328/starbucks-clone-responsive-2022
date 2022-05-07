@@ -1,0 +1,18 @@
+@charset "utf-8";
+
+html { font-size: 20px;}
+body { font-size: 1rem;}
+
+
+
+/* 헤더 가로 사이즈 변경 */
+
+header > div {
+    width: 100%;
+    margin: 0;
+}
+
+header > div h1 {
+    float: left;
+    padding: 1.1rem 0 1.2rem 1rem;
+}
