@@ -3,6 +3,9 @@
 html { font-size: 20px;}
 body { font-size: 1rem;}
 
+
+/* 헤더 */
+
 header {
     /* background: #f6f5ef; */
     background: #cfcec6;
@@ -100,4 +103,14 @@ header > div .spot li:last-child a:before {
     font-family: 'xeicon';
     font-size: 1.2rem;
     color: #000;
+}
+
+
+/* PC버전에서는 안 보이는 아이콘 숨겨두기 */
+header > div .spot i {
+    display: none;
+}
+
+header .total {
+    display: none;
 }
