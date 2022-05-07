@@ -1,0 +1,39 @@
+@charset "utf-8";
+
+html { font-size: 16px;}
+body { font-size: 1rem;}
+
+
+
+/* 로고 이미지 크기 변화 */
+
+header h1 img {
+    width: 2.8125rem;
+}
+
+/* PC버전에서는 안 보이는 아이콘 나타나게 */
+
+header > div nav {
+    display: none;
+}
+header > div .spot i {
+    display: inline-block;
+}
+
+header .total {
+    display: inline-block;
+}
+
+/* i요소만 빼고 안 보여야 됨 */
+
+header > div .spot li:nth-child(2),
+header > div .spot li:nth-child(3),
+header > div .spot li:nth-child(5) {
+    display: none;
+}
+
+header .total span,
+header > div .spot li span {
+    position: absolute;
+    left: -4000%;
+}
