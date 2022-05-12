@@ -4,6 +4,13 @@ html { font-size: 16px;}
 body { font-size: 1rem;}
 
 
+header {
+    border: none;
+}
+
+header > div h1 {
+    padding: 0.8125rem 0 0.75rem 0.625rem;
+}
 
 /* 로고 이미지 크기 변화 */
 
@@ -16,12 +23,40 @@ header h1 img {
 header > div nav {
     display: none;
 }
+
+/* spot 아이콘 정리 */
+
+header > div .spot {
+    right: 4.5rem;
+    top: 1rem;
+}
+
 header > div .spot i {
     display: inline-block;
+    font-size: 2.5rem;
 }
 
 header .total {
     display: inline-block;
+    position: absolute;
+    right: 0.75rem;
+    top: 1rem;
+    font-size: 2.5rem;
+    color: #333;
+}
+
+header > div .spot li a {
+    padding: 0;
+}
+
+header > div .spot li ~ li {
+    padding-left: 1.6875rem;
+}
+
+/* spot li:after 의 선 삭제하기 */
+
+header > div .spot li ~ li a:after {
+    display: none;
 }
 
 /* i요소만 빼고 안 보여야 됨 */
@@ -35,5 +70,6 @@ header > div .spot li:nth-child(5) {
 header .total span,
 header > div .spot li span {
     position: absolute;
-    left: -4000%;
+    left: -40000%;
 }
+
