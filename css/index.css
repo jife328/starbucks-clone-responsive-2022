@@ -114,3 +114,113 @@ header > div .spot i {
 header .total {
     display: none;
 }
+
+
+
+/* reword */
+
+.reword {
+    background: linear-gradient(to right, #272727, #272727 30%, #d6c798 30%, #d6c798 );
+}
+
+.reword > div {
+    position: relative;
+    width: 54.5rem;
+    margin: 0 auto;
+}
+
+.reword > div:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.reword h2 {
+    display: table;
+    position: absolute;
+    width: 16rem;
+    height: 13rem;
+    background: url(../images/bg_star.png) no-repeat right top;
+}
+
+.reword h2 span {
+    display: table-cell;
+    vertical-align: middle;
+    /* width: 16rem; */
+}
+
+.reword .info {
+    padding: 2.5rem 0 0 17rem;
+    height: 13rem;
+    background: url(../images/bg_dot.png) no-repeat left bottom #d6c798;
+    box-sizing: border-box;
+}
+
+.reword .info span {
+    display: block;
+    padding: 0 0 0.6rem;
+    color: #333;
+    font-size: 1.15rem;
+    line-height: 100%;
+    letter-spacing: -1.5px;
+}
+
+.reword .info p {
+    color: #666;
+    font-size: 0.7rem;
+    line-height: 1rem;
+    letter-spacing: -0.5px;
+}
+
+.reword .info strong {
+    font-weight: bold;
+}
+
+/* reword 정렬 */
+
+.reword .left {
+    float: left;
+}
+
+.reword .right {
+    float: right;
+}
+
+.reword .btm  {
+    clear: both;
+    padding: 1.7rem 0 0;
+}
+
+.reword .top_btn {
+    padding: 1.7rem 0 0;
+}
+
+.reword .top_btn a:first-child {
+    margin-right: 0.25rem;
+}
+
+/* 기본 버튼 */
+
+.btn {
+    display: inline-block;
+    min-width: 6.25rem;
+    height: 1.9rem;
+    line-height: 1.7rem;
+    font-size: 0.7rem;
+    color: #222;
+    border: 2px solid #222;
+    border-radius: 3px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.btn.type1 {
+    background: #222;
+    color: #fff;
+}
+
+/* btm 안에 있는 버튼 */
+
+.reword .btm .btn {
+    width: 12.75rem;
+}
