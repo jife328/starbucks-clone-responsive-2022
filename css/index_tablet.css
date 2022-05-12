@@ -16,3 +16,46 @@ header > div h1 {
     float: left;
     padding: 1.1rem 0 1.2rem 1rem;
 }
+
+
+
+/* 리워드 */
+
+.reword h2 {
+    height: 16.75rem;
+    background-position: right bottom;
+    background-size: auto 100%;
+}
+
+.reword h2 span {
+    vertical-align: top;
+    padding: 5.4rem 0 0;
+}
+
+.reword .info {
+    padding: 1rem 0 0 17rem;
+    height: 16.75rem;
+}
+
+
+/* 리워드 정렬 */
+
+.reword .left {
+    float: none;
+}
+
+.reword .right {
+    float: none;
+}
+
+.reword .top_btn {
+    padding: 0.75rem 0 0;
+}
+
+.reword .btm  {
+    padding: 1.4rem 0 0;
+}
+
+.reword .btm .right {
+    padding: 0.7rem 0 0;
+}
