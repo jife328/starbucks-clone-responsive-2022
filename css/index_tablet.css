@@ -19,7 +19,18 @@ header > div h1 {
 
 
 
-/* 리워드 */
+/************* visual *************/
+
+.visual div .img1 {
+    left: 1rem;
+}
+
+
+/************* reword *************/
+
+.reword > div {
+    width: 100%;
+}
 
 .reword h2 {
     height: 16.75rem;
@@ -38,7 +49,7 @@ header > div h1 {
 }
 
 
-/* 리워드 정렬 */
+/* reword 정렬 */
 
 .reword .left {
     float: none;
