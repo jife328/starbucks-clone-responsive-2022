@@ -117,7 +117,64 @@ header .total {
 
 
 
-/* reword */
+/************* visual *************/
+
+
+.visual {
+    background: url(../images/bg_visual.jpg) no-repeat center top;
+}
+
+.visual > div {
+    position: relative;
+    width: 100%;
+    max-width: 54.5rem;
+    height: 32.3rem;
+    margin: 0 auto;
+}
+
+.visual > div div {
+    position: absolute;
+}
+
+.visual div .img1 {
+    left: 0;
+    top: 4rem;
+    z-index: 3;
+}
+.visual div .img1 img {
+    display: block;
+    padding: 0 0 2.3rem;
+    left: 0;
+    top: 4rem;
+    z-index: 3;
+}
+.visual div .img1 a {
+    display: inline-block;
+    width: 6rem;
+    border: 2px solid #3a62ad;
+    text-align: center;
+    line-height: 1.7rem;
+    border-radius: 3px;
+    font-size: 13px;
+    color: #3a62ad;
+}
+.visual div .img2 {
+    left: 12%;
+    top: 8.7rem;
+    z-index: 3;
+}
+.visual div .img3 {
+    left: 50%;
+    top: 3.8rem;
+}
+.visual div .img4 {
+    left: 64%;
+    top: 15.75rem;
+    z-index: 5;
+}
+
+
+/************* reword *************/
 
 .reword {
     background: linear-gradient(to right, #272727, #272727 30%, #d6c798 30%, #d6c798 );
@@ -199,7 +256,7 @@ header .total {
     margin-right: 0.25rem;
 }
 
-/* 기본 버튼 */
+/* 기본 버튼(공통) */
 
 .btn {
     display: inline-block;
